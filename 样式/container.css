@@ -1,0 +1,19 @@
+#container{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content:space-between;
+    position: fixed;
+    /*overflow-y: scroll;*/
+}
+/*#newst{*/
+    /*height: 180px;*/
+    /*display: flex;*/
+    /*flex-flow: column;*/
+    /*justify-content: space-between;*/
+/*}*/
+.floor {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}

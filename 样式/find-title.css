@@ -1,0 +1,37 @@
+.find-top{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    background-color: #FCFCFC;
+}
+
+.find-top-c{
+    font-size: 60px;
+    color: #EE4000;
+    width: 60%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin-left: 20%;
+}
+.find-top-s{
+    height: 60px;
+    width: 60px;
+    margin: 20px;
+    background-color: #FCFCFC;
+    background-size: cover;
+    position: relative;
+}
+.find-top-m{
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    background-color: crimson;
+    color: #FCFCFC;
+    position: absolute;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 30px;
+    left: 35px;
+}

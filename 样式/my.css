@@ -1,0 +1,193 @@
+.my{
+    width: 100%;
+    flex: 1;
+    background-color: #F4F4F4;
+    /*display: flex;*/
+    /*flex-flow: column;*/
+    overflow-y: scroll;
+}
+.my-top1{
+    width: 100%;
+    height: 280px;
+    background-color: #FCFCFC;
+}
+.my-top{
+    width: 100%;
+    height: 200px;
+    background-color: coral;
+    display: flex;
+    flex-flow: row;
+    border:2px solid coral;
+}
+.my-top-box{
+    width: 100%;
+    height: 50px;
+    background-color:coral;
+    /*position: absolute;*/
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.my-top-tou{
+    width: 120px;
+    height: 120px;
+    /*position: relative;*/
+    background-image: url(../img/头像男孩.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 3%;
+}
+.account{
+    height: 150px;
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    color: #FCFCFC;
+    margin-top: 20px;
+}
+.account-n{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-flow: row;
+}
+.account-n-l{
+    font-size: 45px;
+    max-width: 300px;
+    height: 70px;
+    text-align: left;
+    line-height: 70px;
+    margin-right: 20px;
+}
+.account-n-r{
+    font-size: 30px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #D1D1D1;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.account-w{
+    display: flex;
+    flex-flow: row;
+    border: 1px solid greenyellow;
+    margin:5px ;
+    border-radius: 50px;
+}
+.account-w-l{
+    font-size: 30px;
+    max-width: 300px;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+
+}
+.account-w-r{
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/箭头.svg);
+    margin-top: 13px;
+}
+.my-box{
+    width: 96%;
+    max-height: 1000px;
+    margin: 2%;
+    background-color: #FCFCFC;
+    border-radius: 3%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 4%;
+}
+.my-box1{
+    width: 19.5%;
+    height: 250px;
+    display: flex;
+    flex-flow: column;
+}
+.my-box-img{
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.my-box-w{
+    height: 70px;
+    width: 100%;
+    font-size: 35px;
+    line-height: 70px;
+    text-align: center;
+}
+.my-box-w1{
+    height: 50px;
+    font-size: 28px;
+    text-align: center;
+}
+.my-box-w2{
+    font-size: 45px;
+    font-weight: 600;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 10px;
+}
+.my-box2{
+    width: 25%;
+    height: 250px;
+    display: flex;
+    flex-flow: column;
+}
+.my-box-top{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+}
+.my-box-top1{
+    font-size: 40px;
+    height: 80px;
+    width: 200px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 80px;
+}
+.my-box-top2{
+    width: 80px;
+    background-repeat: no-repeat;
+    background-image: url(../img/更多1.svg);
+    height: 80px;
+    background-position: center;
+}
+.my-box3{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-flow: row;
+}
+.my-box3-c{
+    width: 60%;
+    display: flex;
+    flex-flow: column;
+}
+.my-box3-w{
+    height: 100px;
+    width: 100%;
+    font-size: 40px;
+    line-height: 100px;
+    margin-top: 20px;
+}
+.my-box3-w1{
+    width: 180px;
+    height: 60px;
+    font-size: 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 60px;
+}

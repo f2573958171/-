@@ -1,0 +1,103 @@
+.cart-top{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    background-color: #FCFCFC;
+}
+.cart-top-c{
+    font-size: 60px;
+    /*color: #EE4000;*/
+    width: 50%;
+    height: 100px;
+    text-align: right;
+    line-height: 100px;
+    /*margin-right: 10%;*/
+}
+.cart-top-s{
+    height: 60px;
+    width: 60px;
+    margin: 20px;
+    background-color: #FCFCFC;
+    background-size: cover;
+    position: relative;
+
+}
+.cart-top-t{
+    height: 100px;
+   width: 250px;
+    line-height: 100px;
+    text-align: right;
+    margin-right: 20px;
+    font-size: 37px;
+    color: #e6e6e6;
+}
+.cart-top-m{
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    background-color: crimson;
+    color: #FCFCFC;
+    position: absolute;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 30px;
+    left: 35px;
+}
+
+.cart{
+    flex: 1;
+    width: 100%;
+    overflow-y: scroll;
+}
+.cart-c{
+    height: 400px;
+    width: 100%;
+    margin-top: 30px;
+}
+.cart-c-top{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+.cart-top-img{
+    height: 60px;
+    width: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*margin-left: 20px;*/
+    margin: 10px;
+    background-position: center;
+}
+.cart-c-w{
+    font-size: 45px;
+    height: 70px;
+    line-height: 70px;
+    max-width: 300px;
+    color: black;
+    font-weight: 600;
+}
+
+.cart-c-c{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-flow: row;
+    margin-top: 30px;
+}
+.cart-c-cl{
+    height:60px;
+    width: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+    margin-top: 80px;
+    background-position: center;
+}
+.cart-c-r{
+    display: flex;
+    flex-flow: row;
+    height:250px;
+    width: 85%;
+}
